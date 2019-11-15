@@ -1,10 +1,14 @@
-# ODElocalisation
+# Localisation of Ontology Development Environments (LODE)
 
-Protege plugins to render some of the interface and some of the Manchester syntax in another natural language. How you can do that for your  language is described in the how-to in the respective folder under "source".
+This repo contains Protégé plugins to render some of the interface and some of the Manchester syntax in a natural language other than English. 
+
+## Create your own language plugin
+
+There is no real coding involved to create your own language plugin, but mainly a translation. How you can do that is described in the how-to in the respective folder under "source".
 
 The languages for which there are plugins currently are: Afrikaans and Spanish.
 
-Here are a few screenshots:
+## Here are a few screenshots:
 
 ![Screenshot](https://keet.files.wordpress.com/2019/11/af-olifant-ex.png?w=1076&h=632)
 
@@ -14,8 +18,19 @@ Here are a few screenshots:
 
 A longer description can be found in this blog post: https://keet.wordpress.com/2019/11/15/localising-protege-with-manchester-syntax-into-your-language-of-choice/
 
-Contributors to the code, at the various stages: Adam Kaliski, Casey O'Donnell, Michael Harrison, and Toky Raboanary. 
+## Contributors
+(in alphabetical order)
 
-Contributors to translations: Adam Kaliski, Casey O'Donnell, Michael Harrison, Toky Raboanary, Pablo Fillottrani, Tommie Meyer, and Maria Keet. 
+* Contributors to the implementation at the various stages: Michael Harrison, Adam Kaliski, Casey O'Donnell, and Toky Raboanary. 
 
-Lecturer/supervisor/project lead/enduser-tester: Maria Keet.
+* Contributors to translations: Pablo Fillottrani, Michael Harrison, Adam Kaliski, Maria Keet, Tommie Meyer, Casey O'Donnell, and Toky Raboanary. 
+
+* Lecturer/supervisor/project lead/enduser-tester: [Maria Keet](http://www.meteck.org).
+
+## Licence
+
+GNU GPL v3
+
+## Acknowledgments
+
+Some funding was received from the [DOT4D project](http://www.dot4d.uct.ac.za/), for a sub-project to improve on the [Ontology Engineering textbook](https://people.cs.uct.ac.za/~mkeet/OEbook/), of which this was an activity.
