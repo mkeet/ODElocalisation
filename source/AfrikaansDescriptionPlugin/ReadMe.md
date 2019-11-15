@@ -22,7 +22,7 @@ Ensure that you have the latest version of Maven installed.
 4. JAR file "afrikaans-description-plugin-3.0.jar" will be created in the “target” folder.
 5. Copy the JAR file into the “plugins” folder within Protege root folder. 
 6. Launch Protégé
-7. Go to Window>View>Class Views > Afrikaanse Klasbeskrywing
+7. Go to Window>View>Class Views > Beskrywing
 8. Drop the plugin in a window slot
-9. Go to Window>View>Object Property Views > Afrikaanse objek eiendom beskrywing
+9. Go to Window>View>Object Property Views > Beskrywing
 10. Drop the plugin in a window slot
