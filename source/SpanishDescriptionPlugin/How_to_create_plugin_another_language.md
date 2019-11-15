@@ -18,7 +18,7 @@ This plugin is designed to make easy the creation of a new plugin for another la
 10. JAR file "otherLanguage-description-plugin-1.0.jar" will be created in the “target” folder.
 11. Copy the JAR file into the “plugins” folder within Protege root folder. 
 12. Launch Protégé
-13. Go to Window>View>Class Views > Class Description (Other Language)
+13. Go to Window>View>Class Views > Description (Other Language)
 14. Drop the plugin in a window slot
-15. Go to Window>View>Object Property Views > Object Property Description (Other Language)
+15. Go to Window>View>Object Property Views > Description (Other Language)
 16. Drop the plugin in a window slot
