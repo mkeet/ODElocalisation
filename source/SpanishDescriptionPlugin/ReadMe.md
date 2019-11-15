@@ -22,7 +22,7 @@ Ensure that you have the latest version of Maven installed.
 4. JAR file "spanish-description-plugin-1.0.jar" will be created in the “target” folder.
 5. Copy the JAR file into the “plugins” folder within Protege root folder. 
 6. Launch Protégé
-7. Go to Window>View>Class Views > Descripción de la clase de español
+7. Go to Window>View>Class Views > Descripción
 8. Drop the plugin in a window slot
-9. Go to Window>View>Object Property Views > Descripción de la propiedad del objeto español
+9. Go to Window>View>Object Property Views > Descripción
 10. Drop the plugin in a window slot
