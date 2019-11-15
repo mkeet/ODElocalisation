@@ -3,9 +3,9 @@
 Protege plugins to render some of the interface and some of the Manchester syntax in another natural language. How you can do that for your  language is described in the how-to in the respective folder under "source".
 
 Here are some screenshots:
-(https://keet.files.wordpress.com/2019/11/af-olifant-ex.png?w=1076&h=632)
-(https://keet.files.wordpress.com/2019/11/af-ops.png?w=1076&h=682)
-(https://keet.files.wordpress.com/2019/11/es-class-geo-ex.png?w=1076&h=932)
+![Screenshot](https://keet.files.wordpress.com/2019/11/af-olifant-ex.png?w=1076&h=632)
+![Screenshot](https://keet.files.wordpress.com/2019/11/af-ops.png?w=1076&h=682)
+![Screenshot](https://keet.files.wordpress.com/2019/11/es-class-geo-ex.png?w=1076&h=932)
 
 A longer description can be found in this blog post: https://keet.wordpress.com/2019/11/15/localising-protege-with-manchester-syntax-into-your-language-of-choice/
 
