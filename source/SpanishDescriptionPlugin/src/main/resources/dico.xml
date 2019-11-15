@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <Dico>
+
+    <!-- ***************************************************************** -->
+    <!-- *                                                               * -->
+    <!-- *                      ManchesterOWLSyntax                      * -->
+    <!-- *                                                               * -->
+    <!-- ***************************************************************** -->
+
+    <AND>y</AND>
+    <OR>o</OR>
+    <SOME>al menos uno</SOME>
+    <ONLY>sólo</ONLY>
+    <NOT>no</NOT>
+    <!-- comment: double negative -->
+    <!-- <NOT>nie#nie</NOT>: the two parts of the keyword is separated by "#" -->
+    <!-- Example : has-part some (not (Branch)) => has-part sommige (nie (Branch) nie) (Afrikaans double negative) -->
+
+    <VALUE>valor</VALUE>
+    <MIN>al mínimo</MIN>
+    <MAX>al máximo</MAX>
+    <EXACTLY>exactamente</EXACTLY>
+    <DISJOINT_WITH>DisjuntoCon</DISJOINT_WITH>
+    <SUBCLASS_OF>SubclaseDe</SUBCLASS_OF>
+    <EQUIVALENT_TO>EquivalenteA</EQUIVALENT_TO>
+    <EQUIVALENT_CLASSES>EquivalenteA</EQUIVALENT_CLASSES>
+    <DISJOINT_CLASSES>DisjuntoCon</DISJOINT_CLASSES>
+    <INVERSE>Inverso</INVERSE>
+    <!-- ***************************************************************** -->
+    <!-- *                                                               * -->
+    <!-- *                             Class                             * -->
+    <!-- *                                                               * -->
+    <!-- ***************************************************************** -->
+
+    <!-- OWLMultilingualClassAssertionAxiomMembersSection -->
+    <INSTANCES_LABEL>Instancias</INSTANCES_LABEL> <!-- en: Instances -->
+    <INSTANCES_ROW_LABEL>Aserción De Tipo</INSTANCES_ROW_LABEL> <!-- en: Type assertion  -->
+
+    <!-- OWLMultilingualDisjointClassesAxiomFrameSection -->
+    <DISJOINT_WITH_LABEL>Disjunto Con</DISJOINT_WITH_LABEL> <!-- en: Disjoint With -->
+    <DISJOINT_WITH_ROW_LABEL>Disjunto Con</DISJOINT_WITH_ROW_LABEL> <!-- en: Disjoint With -->
+
+    <!-- OWLMultilingualDisjointUnionAxiomFrameSection -->
+    <DISJOINT_UNION_OF_LABEL>Unión Disjunta De</DISJOINT_UNION_OF_LABEL> <!-- en: Disjoint Union Of -->
+    <DISJOINT_UNION_OF_ROW_LABEL>Unión Disjunta De</DISJOINT_UNION_OF_ROW_LABEL> <!-- en: Disjoint Union Of -->
+
+    <!-- OWLMultilingualEquivalentClassesAxiomFrameSection -->
+    <EQUIVALENT_TO_LABEL>Equivalente A</EQUIVALENT_TO_LABEL> <!-- en: Equivalent To -->
+    <EQUIVALENT_TO_ROW_LABEL>Clase Equivalente</EQUIVALENT_TO_ROW_LABEL> <!-- en: Equivalent class -->
+
+    <!-- OWLMultilingualGeneralClassAxiomFrameSection -->
+    <GENERAL_CLASS_AXIOMS_LABEL>Axiomas generales de clase</GENERAL_CLASS_AXIOMS_LABEL> <!-- en: General class axioms  -->
+    <GENERAL_CLASS_AXIOMS_ROW_LABEL>Axiomas generales de clase</GENERAL_CLASS_AXIOMS_ROW_LABEL> <!-- en: General class axioms -->
+
+    <!-- OWLMultilingualInheritedAnonymousClassesFrameSection -->
+    <SUBCLASS_OF_ANONYMOUS_ANCESTOR_LABEL>SubClase De (Ancestro Anónimo)</SUBCLASS_OF_ANONYMOUS_ANCESTOR_LABEL> <!-- en: SubClass Of (Anonymous Ancestor) -->
+    <SUBCLASS_OF_ANONYMOUS_ANCESTOR_ROW_LABEL>SubClase De (Ancestro Anónimo)</SUBCLASS_OF_ANONYMOUS_ANCESTOR_ROW_LABEL> <!-- en: Anonymous Ancestor Class -->
+
+    <!-- OWLMultilingualSubClassesAxiomFrameSection -->
+    <SUBCLASS_OF_LABEL>SubClase de</SUBCLASS_OF_LABEL> <!-- en: SubClass Of -->
+    <SUBCLASS_OF_ROW_LABEL>SuperClase</SUBCLASS_OF_ROW_LABEL> <!-- en: Superclass -->
+
+    <!-- ***************************************************************** -->
+    <!-- *                                                               * -->
+    <!-- *                        Object Property                        * -->
+    <!-- *                                                               * -->
+    <!-- ***************************************************************** -->
+
+    <!-- OWLMultilingualDisjointObjectPropertiesFrameSection -->
+    <DISJOINT_WITH_OBJ_PROP_LABEL>Disjunto Con</DISJOINT_WITH_OBJ_PROP_LABEL> <!-- en: Disjoint With -->
+    <DISJOINT_WITH_OBJ_PROP_ROW_LABEL>Disjunto Con</DISJOINT_WITH_OBJ_PROP_ROW_LABEL> <!-- en: Disjoint properties -->
+
+    <!-- OWLMultilingualEquivalentObjectPropertiesAxiomFrameSection -->
+    <EQUIVALENT_TO_OBJ_PROP_LABEL>Equivalente A</EQUIVALENT_TO_OBJ_PROP_LABEL> <!-- en: Equivalent To -->
+    <EQUIVALENT_TO_ROW_OBJ_PROP_LABEL>Equivalente A</EQUIVALENT_TO_ROW_OBJ_PROP_LABEL> <!-- //en: Equivalent object property -->
+    
+    <!-- OWLMultilingualInverseObjectPropertiesAxiomFrameSection -->
+    <INVERSE_OF_OBJ_PROP_LABEL>Inverso De</INVERSE_OF_OBJ_PROP_LABEL> <!-- en: Inverse Of -->
+    <INVERSE_OF_ROW_OBJ_PROP_LABEL>Inverso De</INVERSE_OF_ROW_OBJ_PROP_LABEL> <!-- en: Inverse property -->
+
+    <!-- OWLMultilingualObjectPropertyDomainFrameSection (à revoir) -->
+    <DOMAINS_OBJ_PROP_LABEL>Dominios (intersección)</DOMAINS_OBJ_PROP_LABEL> <!-- en: Domains (intersection) --> 
+    <DOMAIN_ROW_OBJ_PROP_LABEL>Dominio</DOMAIN_ROW_OBJ_PROP_LABEL> <!-- en: Domain -->
+
+    <!-- OWLMultilingualObjectPropertyRangeFrameSection -->
+    <RANGES_OBJ_PROP_LABEL>Rango (intersección)</RANGES_OBJ_PROP_LABEL> <!-- en: Ranges (intersection) -->
+    <RANGE_ROW_OBJ_PROP_LABEL>Rango</RANGE_ROW_OBJ_PROP_LABEL> <!-- en: Range -->
+
+    <!-- OWLMultilingualPropertyChainAxiomFrameSection -->
+    <PROP_CHAIN_OBJ_PROP_LABEL>SuperPropiedad De (Cadena)</PROP_CHAIN_OBJ_PROP_LABEL> <!-- en: SuperProperty Of (Chain) --> 
+    <PROP_CHAIN_ROW_OBJ_PROP_LABEL>Cadena De Propiedad</PROP_CHAIN_ROW_OBJ_PROP_LABEL> <!-- en: Property chain -->
+
+    <!-- OWLMultilingualSubObjectPropertyAxiomSuperPropertyFrameSection -->
+    <SUBPROP_OF_OBJ_PROP_LABEL>SubPropiedad De</SUBPROP_OF_OBJ_PROP_LABEL> <!-- en: SubProperty Of -->
+    <SUBPROP_OF_ROW_OBJ_PROP_LABEL>SuperPropiedad</SUBPROP_OF_ROW_OBJ_PROP_LABEL> <!-- en: SuperProperty -->
+    
+    </Dico>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <Dico>
+
+    <!-- ***************************************************************** -->
+    <!-- *                                                               * -->
+    <!-- *                      ManchesterOWLSyntax                      * -->
+    <!-- *                                                               * -->
+    <!-- ***************************************************************** -->
+
+    <AND>en</AND>
+    <OR>of</OR>
+    <SOME>sommige</SOME>
+    <ONLY>slegs</ONLY>
+    <NOT>nie#nie</NOT> 
+    <!-- comment: double negative -->
+    <!-- <NOT>nie#nie</NOT>: the two parts of the keyword is separated by "#" -->
+    <!-- Example : has-part some (not (Branch)) => has-part sommige (nie (Branch) nie) (Afrikaans double negative) -->
+
+    <VALUE>waarde</VALUE>
+    <MIN>ten minste</MIN>
+    <MAX>by die meeste</MAX>
+    <EXACTLY>precies</EXACTLY>
+    <DISJOINT_WITH>DisjunkteVan</DISJOINT_WITH>
+    <SUBCLASS_OF>SubklasVan</SUBCLASS_OF>
+    <EQUIVALENT_TO>DieselfdeAs</EQUIVALENT_TO>
+    <EQUIVALENT_CLASSES>DieselfdeAs</EQUIVALENT_CLASSES>
+    <DISJOINT_CLASSES>DisjunkteVan</DISJOINT_CLASSES>
+    <INVERSE>Inverse</INVERSE>
+    <!-- ***************************************************************** -->
+    <!-- *                                                               * -->
+    <!-- *                             Class                             * -->
+    <!-- *                                                               * -->
+    <!-- ***************************************************************** -->
+
+    <!-- OWLMultilingualClassAssertionAxiomMembersSection -->
+    <INSTANCES_LABEL>Instansies</INSTANCES_LABEL> <!-- en: Instances -->
+    <INSTANCES_ROW_LABEL>Instansies</INSTANCES_ROW_LABEL> <!-- en: Type assertion  -->
+
+    <!-- OWLMultilingualDisjointClassesAxiomFrameSection -->
+    <DISJOINT_WITH_LABEL>Disjunkte Van</DISJOINT_WITH_LABEL> <!-- en: Disjoint With -->
+    <DISJOINT_WITH_ROW_LABEL>Disjunkte Van</DISJOINT_WITH_ROW_LABEL> <!-- en: Disjoint With -->
+
+    <!-- OWLMultilingualDisjointUnionAxiomFrameSection -->
+    <DISJOINT_UNION_OF_LABEL>Disjunkte Unie Van</DISJOINT_UNION_OF_LABEL> <!-- en: Disjoint Union Of -->
+    <DISJOINT_UNION_OF_ROW_LABEL>Disjunkte Unie Van</DISJOINT_UNION_OF_ROW_LABEL> <!-- en: Disjoint Union Of -->
+
+    <!-- OWLMultilingualEquivalentClassesAxiomFrameSection -->
+    <EQUIVALENT_TO_LABEL>Dieselfde As</EQUIVALENT_TO_LABEL> <!-- en: Equivalent To -->
+    <EQUIVALENT_TO_ROW_LABEL>Dieselfde As</EQUIVALENT_TO_ROW_LABEL> <!-- en: Equivalent class -->
+
+    <!-- OWLMultilingualGeneralClassAxiomFrameSection -->
+    <GENERAL_CLASS_AXIOMS_LABEL>Algemene klasaksiomas</GENERAL_CLASS_AXIOMS_LABEL> <!-- en: General class axioms  -->
+    <GENERAL_CLASS_AXIOMS_ROW_LABEL>Algemene klasaksiomas</GENERAL_CLASS_AXIOMS_ROW_LABEL> <!-- en: General class axioms -->
+
+    <!-- OWLMultilingualInheritedAnonymousClassesFrameSection -->
+    <SUBCLASS_OF_ANONYMOUS_ANCESTOR_LABEL>SubKlas Van (Naamlose Voorvader)</SUBCLASS_OF_ANONYMOUS_ANCESTOR_LABEL> <!-- en: SubClass Of (Anonymous Ancestor) -->
+    <SUBCLASS_OF_ANONYMOUS_ANCESTOR_ROW_LABEL>SubKlas Van (Naamlose Voorvader)</SUBCLASS_OF_ANONYMOUS_ANCESTOR_ROW_LABEL> <!-- en: Anonymous Ancestor Class -->
+
+    <!-- OWLMultilingualSubClassesAxiomFrameSection -->
+    <SUBCLASS_OF_LABEL>SubKlas Van</SUBCLASS_OF_LABEL> <!-- en: SubClass Of -->
+    <SUBCLASS_OF_ROW_LABEL>SubKlas Van</SUBCLASS_OF_ROW_LABEL> <!-- en: Superclass -->
+
+    <!-- ***************************************************************** -->
+    <!-- *                                                               * -->
+    <!-- *                        Object Property                        * -->
+    <!-- *                                                               * -->
+    <!-- ***************************************************************** -->
+
+    <!-- OWLMultilingualDisjointObjectPropertiesFrameSection -->
+    <DISJOINT_WITH_OBJ_PROP_LABEL>Disjunkte Van</DISJOINT_WITH_OBJ_PROP_LABEL> <!-- en: Disjoint With -->
+    <DISJOINT_WITH_OBJ_PROP_ROW_LABEL>Disjunkte Van</DISJOINT_WITH_OBJ_PROP_ROW_LABEL> <!-- en: Disjoint properties -->
+
+    <!-- OWLMultilingualEquivalentObjectPropertiesAxiomFrameSection -->
+    <EQUIVALENT_TO_OBJ_PROP_LABEL>Dieselfde As</EQUIVALENT_TO_OBJ_PROP_LABEL> <!-- en: Equivalent To -->
+    <EQUIVALENT_TO_ROW_OBJ_PROP_LABEL>Dieselfde As</EQUIVALENT_TO_ROW_OBJ_PROP_LABEL> <!-- //en: Equivalent object property -->
+    
+    <!-- OWLMultilingualInverseObjectPropertiesAxiomFrameSection -->
+    <INVERSE_OF_OBJ_PROP_LABEL>Inverse Van</INVERSE_OF_OBJ_PROP_LABEL> <!-- en: Inverse Of -->
+    <INVERSE_OF_ROW_OBJ_PROP_LABEL>Inverse Van</INVERSE_OF_ROW_OBJ_PROP_LABEL> <!-- en: Inverse property -->
+
+    <!-- OWLMultilingualObjectPropertyDomainFrameSection (à revoir) -->
+    <DOMAINS_OBJ_PROP_LABEL>Domeine (snyding)</DOMAINS_OBJ_PROP_LABEL> <!-- en: Domains (intersection) -->
+    <DOMAIN_ROW_OBJ_PROP_LABEL>Domeine (snyding)</DOMAIN_ROW_OBJ_PROP_LABEL> <!-- en: Domain -->
+
+    <!-- OWLMultilingualObjectPropertyRangeFrameSection -->
+    <RANGES_OBJ_PROP_LABEL>Reeks (snyding)</RANGES_OBJ_PROP_LABEL> <!-- en: Ranges (intersection) -->
+    <RANGE_ROW_OBJ_PROP_LABEL>Reeks (snyding)</RANGE_ROW_OBJ_PROP_LABEL> <!-- en: Range -->
+
+    <!-- OWLMultilingualPropertyChainAxiomFrameSection -->
+    <PROP_CHAIN_OBJ_PROP_LABEL>SuperVerwantskap Van (Ketting)</PROP_CHAIN_OBJ_PROP_LABEL> <!-- en: SuperProperty Of (Chain) -->
+    <PROP_CHAIN_ROW_OBJ_PROP_LABEL>SuperVerwantskap Van (Ketting)</PROP_CHAIN_ROW_OBJ_PROP_LABEL> <!-- en: Property chain -->
+
+    <!-- OWLMultilingualSubObjectPropertyAxiomSuperPropertyFrameSection -->
+    <SUBPROP_OF_OBJ_PROP_LABEL>SubVerwantskap Van</SUBPROP_OF_OBJ_PROP_LABEL> <!-- en: SubProperty Of -->
+    <SUBPROP_OF_ROW_OBJ_PROP_LABEL>SubVerwantskap Van</SUBPROP_OF_ROW_OBJ_PROP_LABEL> <!-- en: Super property -->
+    
+    </Dico>
