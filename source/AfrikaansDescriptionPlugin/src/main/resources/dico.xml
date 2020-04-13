@@ -19,7 +19,7 @@
     <VALUE>waarde</VALUE>
     <MIN>ten minste</MIN>
     <MAX>by die meeste</MAX>
-    <EXACTLY>precies</EXACTLY>
+    <EXACTLY>presies</EXACTLY>
     <DISJOINT_WITH>DisjunkteVan</DISJOINT_WITH>
     <SUBCLASS_OF>SubklasVan</SUBCLASS_OF>
     <EQUIVALENT_TO>DieselfdeAs</EQUIVALENT_TO>
